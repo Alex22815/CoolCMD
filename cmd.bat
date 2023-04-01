@@ -5,7 +5,7 @@
 
 set wgetPath=C:\Program Files (x86)\GnuWin32\bin
 
-set ScriptGEO=%~dp0
+:: %~dp0
 
 ::== Enable or disable Auto Update and/or Auto refresh scripts ==
 
@@ -110,5 +110,7 @@ set AutoRefreshScripts == done
 goto VARs
 
 :Update
+cd %~dp0
+wget https://raw.githubusercontent.com/Alex22815/CoolCMD/main/cmd.bat
 set AutoUpdate == done
 goto VARs
