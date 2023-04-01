@@ -8,7 +8,7 @@ curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolC
 echo.
 pause
 
-goto :StartUpCommands
+goto StartUpCommands
 
 :StartUpCommands
 
