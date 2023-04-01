@@ -51,8 +51,8 @@ goto StartupText
 
 title CoolCMD
 echo.
-echo.        Hello! 
-echo.  Welcome to CoolCMD!
+echo.              Hello! 
+echo.  Welcome to CoolCMD Gihub Edition!
 echo.
 
 
