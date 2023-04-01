@@ -1,10 +1,11 @@
 @echo off
+goto UpdateUpdater
 :UpdateUpdater
 
 echo. Updating Updater... Please, wait.
-
+echo.
 curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolCMD.bat --output cmd.bat >nul 
-
+echo.
 pause
 
 goto :StartUpCommands
