@@ -13,7 +13,7 @@ set wgetPath=C:\Program Files (x86)\GnuWin32\bin
 
 
 
-::Setup is done. No, really, you end with setuping
+:: Here the end of startup commands! 
 
 goto StartupText
 
@@ -23,7 +23,7 @@ goto StartupText
 title CoolCMD by AlexMiles22815
 echo.
 echo.           Hello! 
-echo.  Welcome to CoolCMD v0.4
+echo.  Welcome to CoolCMD v0.41
 echo.
 
 
