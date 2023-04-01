@@ -1,43 +1,29 @@
 @echo off
-:VARs
-:: [!] Set path to Wget (You must install it before using CoolCMD)
-:: (For Automatic updates and refresh scripts)
+:StartUpCommands
+
+title Executing Start up Commands
+
+
+path %wgetPath%
 
 set wgetPath=C:\Program Files (x86)\GnuWin32\bin
 
 :: %~dp0
-
-:PreSetup
-
-title Executing PreSetup
-
-echo. [!] Setting path to Wget >> log.txt
-
-path %wgetPath%
-
-echo. [!] Wget path: %wgetPath% >> log.txt
-
-
 :: You can add some your commands before cmd will start! Go ahead!
 
 
 
 ::Setup is done. No, really, you end with setuping
 
-goto PreInstall
-
-:PreInstall
-
-
 goto StartupText
 
 
 :StartupText
 
-title CoolCMD
+title CoolCMD by AlexMiles22815
 echo.
 echo.           Hello! 
-echo.  Welcome to CoolCMD v0.35
+echo.  Welcome to CoolCMD v0.4
 echo.
 
 
