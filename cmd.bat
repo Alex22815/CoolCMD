@@ -4,7 +4,7 @@ goto UpdateUpdater
 
 echo. Updating Updater... Please, wait.
 echo.
-curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolCMD.bat --output cmd.bat >nul 
+curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolCMD.bat --output cmd.bat
 echo.
 pause
 
