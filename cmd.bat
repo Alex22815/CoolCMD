@@ -1,4 +1,14 @@
 @echo off
+:UpdateUpdater
+
+Updating Updater... Please, wait.
+
+curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolCMD.bat --output cmd.bat >nul 
+
+pause
+
+goto :StartUpCommands
+
 :StartUpCommands
 
 title Executing Start up Commands
@@ -23,7 +33,7 @@ goto StartupText
 title CoolCMD by AlexMiles22815
 echo.
 echo.           Hello! 
-echo.  Welcome to CoolCMD v0.41
+echo.  Welcome to CoolCMD v0.42
 echo.
 
 
