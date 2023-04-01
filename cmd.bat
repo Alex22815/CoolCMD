@@ -7,21 +7,6 @@ set wgetPath=C:\Program Files (x86)\GnuWin32\bin
 
 :: %~dp0
 
-::== Enable or disable Auto Update and/or Auto refresh scripts ==
-
-set AutoUpdate = true
-set AutoRefreshScripts = true
-
-::===============================================================
-
-if AutoUpdate == true (
-	goto Update
-)
-if AutoRefreshScripts == true (
-	goto RefreshScripts
-)
-
-
 :PreSetup
 
 title Executing PreSetup
@@ -51,8 +36,8 @@ goto StartupText
 
 title CoolCMD
 echo.
-echo.              Hello! 
-echo.  Welcome to CoolCMD Gihub Edition!
+echo.           Hello! 
+echo.  Welcome to CoolCMD v0.35
 echo.
 
 
@@ -95,7 +80,8 @@ goto CMD
 
 
 
-
+:: Unused code
+:: Here is a copy of random code, what not using anymore
 
 
 
@@ -110,7 +96,3 @@ set AutoRefreshScripts == done
 goto VARs
 
 :Update
-cd %~dp0
-wget https://raw.githubusercontent.com/Alex22815/CoolCMD/main/cmd.bat
-set AutoUpdate == done
-goto VARs
