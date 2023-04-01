@@ -13,12 +13,6 @@ goto StartUpCommands
 :StartUpCommands
 
 title Executing Start up Commands
-
-
-path %wgetPath%
-
-set wgetPath=C:\Program Files (x86)\GnuWin32\bin
-
 :: %~dp0
 :: You can add some your commands before cmd will start! Go ahead!
 
@@ -30,7 +24,7 @@ goto StartupText
 
 
 :StartupText
-
+cls
 title CoolCMD by AlexMiles22815
 echo.
 echo.           Hello! 
