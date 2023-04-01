@@ -1,7 +1,7 @@
 @echo off
 :UpdateUpdater
 
-Updating Updater... Please, wait.
+echo. Updating Updater... Please, wait.
 
 curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolCMD.bat --output cmd.bat >nul 
 
