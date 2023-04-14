@@ -6,20 +6,22 @@ echo. Updating Updater... Please, wait.
 echo.
 curl https://raw.githubusercontent.com/Alex22815/CoolCMD/main/StartOrUpdateCoolCMD.bat --output StartOrUpdateCoolCMD.bat
 echo.
-pause
+cls
 
 goto StartUpCommands
 
 :StartUpCommands
-
+echo. 
+echo. Executing commnads on start
 title Executing Start up Commands
 :: %~dp0
-:: You can add some your commands before cmd will start! Go ahead!
+:: You can add some your commands before cmd will start! Go ahead! (or use "call "filename.bat"")
 
 
 
 :: Here the end of startup commands! 
-
+echo.
+echo. All commands executed... Startig CoolCMD..
 goto StartupText
 
 
@@ -37,7 +39,7 @@ goto CMD
 
 
 :CMD
-set /p a=">> "
+set /p a="%username%>> "
 title Executing: %a%
 %a%
 title Executed: %a%
