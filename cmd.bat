@@ -30,7 +30,7 @@ cls
 title CoolCMD by AlexMiles22815
 echo.
 echo.           Hello! 
-echo.  Welcome to CoolCMD v0.42
+echo.  Welcome to CoolCMD v0.45
 echo.
 
 
