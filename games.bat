@@ -35,7 +35,7 @@ if exist "rps.bat" (
 	call "rps.bat"
 ) else (
 	echo. [!]Error: Cant find rps.bat.
-	set /p file=" [?] Does this file exits? If yes, type name here (without .bat): "
+	set /p file="  [?] Does this file exits? If yes, type name here (without .bat): "
 	goto check
 )
 
